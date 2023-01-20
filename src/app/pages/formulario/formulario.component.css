@@ -1,0 +1,10 @@
+.color-boton__validate{
+    background: rgba(59, 130, 246, 0.9);
+    color: white;
+    padding: 5px 25px;
+    border-radius: 8px;
+}
+
+.color-boton__validate:hover{
+    background: rgba(5, 101, 255, 0.9);
+}

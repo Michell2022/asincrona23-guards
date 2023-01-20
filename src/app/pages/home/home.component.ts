@@ -7,4 +7,30 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  
+  toggle!:boolean;
+  numero1!:string;
+  numero2!:string;
+  resultado!:string;
+ 
+
+  verificar() {
+    if(this.numero2 == "" || this.numero1 == ""){
+      this.toggle = false;
+
+      this.resultado = "";
+    }
+  }
+
+  ejecutarSuma(){
+
+    if(this.toggle){
+      const resul = parseInt(this.numero1)  + parseInt(this.numero2);
+      this.resultado = resul.toString();
+    }else{
+      this.resultado = "";
+    }
+ 
+  }
+
 }

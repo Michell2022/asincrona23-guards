@@ -1,1 +1,17 @@
-<p>home works!</p>
+<div class="mt-12 pt-12">
+    <p>Bienvenidos a Home!</p>
+    <div>
+        <label for="">Ingrese numero 1:</label>
+        <input class="border" type="text" [(ngModel)]="numero1" (input)="verificar()">
+    </div>
+    <div>
+        <label for="">Ingrese numero 2:</label>
+        <input class="border" type="text" [(ngModel)]="numero2" (input)="verificar()">
+    </div>
+    <mat-slide-toggle [(ngModel)]="toggle" (click)="ejecutarSuma()">Slide me!</mat-slide-toggle>
+    <div>
+        <span>Resultado: {{resultado}}</span>
+        <span *ngIf="!toggle">El toggle esta inactivo</span>
+    </div>
+</div>
+

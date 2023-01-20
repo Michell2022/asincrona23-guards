@@ -1,0 +1,58 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+.principal{
+    height: 100vh;
+    background-image: url("/assets/image/paisaje-login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.formulario{
+    padding: 25px 40px 0px 40px;
+    background-color: rgba(244, 244, 244, 0.3);
+    backdrop-filter: blur(2px);
+    /* border: 1px solid rgba(121, 121, 121, 0.5); */
+    border-radius: 10px;
+    margin: 0;
+}
+
+.contenedor h1{
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.contenedor .space__inputs{
+    margin-bottom: 40px;
+}
+
+
+button{
+    /* background: rgb(23, 99, 240); */
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 80px;
+    border-radius: 40px 5px 40px 5px;
+    margin-bottom: 30px;
+    background: linear-gradient(#fb2b68, #ff5b38);
+}
+
+label.form-label{
+    color: #fff;
+}
