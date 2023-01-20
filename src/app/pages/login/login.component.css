@@ -41,7 +41,7 @@
 }
 
 
-button{
+form button{
     /* background: rgb(23, 99, 240); */
     color: white;
     border: none;
@@ -51,8 +51,13 @@ button{
     border-radius: 40px 5px 40px 5px;
     margin-bottom: 30px;
     background: linear-gradient(#fb2b68, #ff5b38);
+    transition: 300ms ease-in-out;
 }
 
 label.form-label{
     color: #fff;
+}
+
+form button:hover{
+    background: linear-gradient(#ff7657, #ff5789);
 }
